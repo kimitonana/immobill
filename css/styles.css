@@ -1,0 +1,77 @@
+
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('../res/font/Ubuntu-Regular.ttf');
+}
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: italic;
+	src: url('../res/font/Ubuntu-Italic.ttf');
+}
+@font-face {
+	font-family: 'Ubuntu';
+	font-weight: bold;
+	src: url('../res/font/Ubuntu-Bold.ttf');
+}
+
+:root {
+  --marine: #31394a;
+  --bordeau: #c04e55;
+  --skyblue: #46578a;
+  --beige: #ead793;
+}
+
+body {
+  font-family: 'Ubuntu', 'Open Sans', Verdana, sans-serif;
+  color: #46578a;
+}
+
+.wrapper {
+  background-image: url('../img/test1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100%; */
+}
+
+.wrapper2 {
+  background-image: url('../img/test2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+}
+
+.catchphrase {
+  text-align: center;
+}
+
+.catchphrase hr {
+  border: 2px solid #46578a;
+  width: 25rem;
+}
+
+.marine-fill { fill: var(--marine); }
+.skyblue-fill { fill: var(--skyblue); }
+.bordeau-fill { fill: var(--bordeau); }
+.beige-fill { fill: var(--beige); }
+.marine-text { color: var(--marine); }
+.skyblue-text { color:var(--skyblue); }
+.bordeau-text { color: var(--bordeau); }
+.beige-text { color: var(--beige); }
+
+.go-button {
+  background-color:  #c04e55;
+  color: #f3f3f3;
+  margin-top: 6rem;
+}
+
+.map path:hover { fill-opacity: 0.7;}
+
+.slogan {
+  background-image: url('../img/immeuble.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 16.6rem;
+  padding-right: 7rem;
+}
